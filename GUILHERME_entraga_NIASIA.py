@@ -69,7 +69,7 @@ for i in range(len(ia_model_preds)):
 
 mae_ia = mean_absolute_error(ia_model_preds,val_y)
 
-print('O mean absolute error do modelo IA é', mae_ia, '\n')
+print('O MAE do modelo IA é', mae_ia, '\n')
 
 ia_model.fit(X, y)
 
